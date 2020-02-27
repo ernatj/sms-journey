@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://<your-domain-here>/journeybuilder/execute",
+          "url": "https://sms-journey.herokuapp.com/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -31,24 +31,24 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "__application_key_from_appcenter_here__",
+      "applicationExtensionKey": "V6tuJ4o7gzNAORGdQHSIyHapa1Wm4Yo2OExegnd7YO6DPpO906ruTX7q1sE-Q-_QpiRWV5k67jtukWPD_V7l6bv-de-hAewF62mBpc_pIePbbtS2KfKkGq7oMHWJZuaby4ZOM72gkjnlbQWS0RTQrAMHw7VBhJjDWujgpnk06Ec7N9TVJp6W6sydX4wtLDnLaZ4BXrTBf7pPd9N7bJWWS02DgmFZalMFINmq3q04zGNyn6_y9pdt5yjUOZDuWQ2",
       "save": {
-        "url": "https://<your-domain-here>/journeybuilder/save",
+        "url": "https://sms-journey.herokuapp.com/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://<your-domain-here>/journeybuilder/publish",
+        "url": "https://sms-journey.herokuapp.com/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://<your-domain-here>/journeybuilder/stop",
+        "url": "https://sms-journey.herokuapp.com/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://<your-domain-here>/journeybuilder/validate",
+        "url": "https://sms-journey.herokuapp.com/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
