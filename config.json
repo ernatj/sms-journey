@@ -1,8 +1,8 @@
 {
     "workflowApiVersion": "1.1",
     "metaData": {
-        "icon": "https://image.s11.sfmc-content.com/lib/fe3815717564047b711374/m/1/7141808b-631b-4e71-893f-d9dddb6dab7b.png",
-	"iconSmall": "https://image.s11.sfmc-content.com/lib/fe3815717564047b711374/m/1/41afc912-e92b-419a-b81b-ddf39c4303b8.png",
+        "icon": "images/icon.png",
+	"iconSmall": "images/iconSmall.png",
         "category": "message"
     },
     "type": "REST",
